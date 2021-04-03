@@ -3,20 +3,10 @@ CSipSimple
 
 CSipSimple for Android Studio Project
 
-##change
+> the project fork from https://github.com/r3gis3r/CSipSimple, Now I have not worked on this project.
 
-* /res/values/wizard_sipgate_string.xml 
-    
-        <string  xm:lns:ns0="http://schemas.android.com/tools" /> -
-        <resources xmlns:ns0="http://schemas.android.com/tools"/> +
+CSipSimple 项目基本不会维护，建议使用 [linphone](http://www.linphone.org/)
 
-* delete jni folder
-* add jniLibs folder and  org.pjsip.pjsua to java folder
-* delete about quote UtilityWrapper
+** remove-ActionBarSherlock ** 使用新 SDK 需要移除 ActionBarSherlock
 
-
-##reference
-
-* com.actionbarsherlock:actionbarsherlock:4.4.0@aar
-
-
+![截图](https://raw.githubusercontent.com/tqcenglish/CSipSimple/master/doc/screenshot.png)
